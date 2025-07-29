@@ -13,13 +13,13 @@ about_page = st.Page(
 CSVagent_page = st.Page(
     page="views/CSVagent.py",
     title="CSV-Agent",
-    icon=":material/smart_toy:",
+    icon=":material/bar_chart:",
 )
 
 PDFagent_page = st.Page(
     page="views/PDFagent.py",
     title="PDF-Agent",
-    icon=":material/bar_chart:",
+    icon=":material/document_search:",
 )
 
 # --- Naviagation Setup (w/o section) ---
