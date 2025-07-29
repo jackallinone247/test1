@@ -14,7 +14,7 @@ col1,col2 = st.columns(2, gap ="small", vertical_alignment='center')
 with col1:
     st.image("./assets/logo.png",width=230)
 with col2:
-    st.title("Jack Builds", anchor=False)
+    st.title("AI Builds", anchor=False)
     st.write("AI Specialist, assisting enterprises by supporting AI-driven Insights")
     if st.button("✉ Contact Me"):
         show_contact_form()

@@ -10,15 +10,15 @@ about_page = st.Page(
     default=True,
 )
 
-chatbot_page = st.Page(
-    page="views/chatbot.py",
-    title="ChatBot",
+CSVagent_page = st.Page(
+    page="views/CSVagent.py",
+    title="CSV-Agent",
     icon=":material/smart_toy:",
 )
 
-dashboard_page = st.Page(
-    page="views/sales_dashboard.py",
-    title="Sales Dashboard",
+PDFagent_page = st.Page(
+    page="views/PDFagent.py",
+    title="PDF-Agent",
     icon=":material/bar_chart:",
 )
 
@@ -31,7 +31,7 @@ dashboard_page = st.Page(
 pg = st.navigation(
     {   
         "Info": [about_page],
-        "Projects": [dashboard_page,chatbot_page],
+        "Projects": [CSVagent_page,PDFagent_page],
     }
 )
 
