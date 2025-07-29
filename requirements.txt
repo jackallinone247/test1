@@ -4,3 +4,4 @@ streamlit
 langchain
 langchain-community
 sqlalchemy
+langchain-openai
