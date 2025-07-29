@@ -1,3 +1,6 @@
 pandas
 requests
 streamlit
+langchain
+langchain-community
+sqlalchemy
